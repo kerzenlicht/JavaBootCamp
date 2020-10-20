@@ -28,10 +28,23 @@ public class CalculatorClient {
 		result = normalCalc.multiply(mul);
 		System.out.println("2) Multiplication result is " + result); 
 		
-
+		// Divide
+	
+		result = normalCalc.divide (10, 5) ;
+		System.out.println("3) Division result is " + result);
+		
+		// Subtract
+		result = normalCalc.subtract (20, 40) ;
+		System.out.println("4) Substraction result is " + result);
 	}
+		}
+	
 
+	
+		
+		
+	
 
 	
 
-}
+

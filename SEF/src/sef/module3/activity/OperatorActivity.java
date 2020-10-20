@@ -26,7 +26,9 @@ public class OperatorActivity {
 		
 		// Print result
 		
-		
+
+		result = i+j;
+		System.out.println("Addition = " + result);
 	}
 
 }

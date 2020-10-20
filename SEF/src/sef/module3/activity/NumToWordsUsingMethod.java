@@ -21,7 +21,7 @@ public class NumToWordsUsingMethod {
 		}
 
 		private static void printMyWord(int i) {
-			final String numText;
+		 String numText;
 			switch(i) {
 			case 1:
 				numText = "ONE";break;
