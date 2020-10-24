@@ -14,7 +14,7 @@ public class EmployeeJDBC {
 		Connection con=null;
 		String url = "jdbc:mysql://localhost/activity";
 		String user = "root";
-		String pass = "adbd1234";
+		String pass = "L6086650";
 
 		try {
 			Class.forName("com.mysql.jdbc.Driver");

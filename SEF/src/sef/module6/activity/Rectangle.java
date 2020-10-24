@@ -1,10 +1,12 @@
 package sef.module6.activity;
 
-public abstract class Rectangle extends Shape {
+public class Rectangle extends Shape {
 
 
-	    double length;
-	    double breadth;
+	   private double length;
+	   private double breadth;
+       public Rectangle () {
+}
 
 	    Rectangle(double length, double breadth)
 	    {
@@ -12,14 +14,16 @@ public abstract class Rectangle extends Shape {
 	        this.breadth = breadth;
 	    }
 
-	    double getArea()
+	    public double calculateArea()
 	    {
-	        return length * breadth;
+	        double area = length * breadth;
+	    	return area;
 	    }
 
-	    double getPerimeter()
+	    public double calculatePerimeter()
 	    {
-	        return 2 * (length + breadth);
+	        double perimeter = 2 * (length + breadth);
+	    	return perimeter;
 	    }
 	}
 	

@@ -1,15 +1,19 @@
 package sef.module6.activity;
 
 public class AbstractionActivity {
-	public static void main(String arg[])
-    {
-		Shape Rectangle_A = new Rectangle(10, 5);
-        
-        System.out.println("Length = " + length);
-        System.out.println("Breadth = " + breadth);
-        System.out.println("Area = " + Area());
-        System.out.println("Perimeter = " + Perimeter());
-    
-    }
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	Shape p1 = new Rectangle (5,6);
+	
+	p1.setColor("RED");
+	
+	System.out.println(" Color of Rectangle is " +p1.getColor());
+	System.out.println(" Area of Rectangle is " +p1.calculateArea());
+	System.out.println(" Perimeter of Rectangle is " +p1.calculatePerimeter());
+	
+	}
+
 	
 }
